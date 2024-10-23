@@ -1,0 +1,575 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header#start {
+  width: 375px;
+  height: 48px;
+  padding: 4px 24px 4px 12px;
+  color: #6070ff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > span {
+  width: 100px; /* Invalid value, kept as is for reference */
+  height: 40px; /* Invalid value, kept as is for reference */
+  padding: 10px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+nav > img {
+  width: 40px; /* Invalid value, kept as is for reference */
+  height: 40px; /* Invalid value, kept as is for reference */
+  padding: 4px 0 0 0;
+  border-radius: 8px 0 0 0;
+}
+
+#header_ul
+{
+  display: none;
+}
+
+.about_section {
+  width: 375px;
+  min-height: 604px;
+  padding: 114px 24px;
+  gap: 12px;
+  background-image: url(images/main_background.png); /* Changed to forward slash */
+}
+
+.intro {
+  width: 327px;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.about {
+  width: 327px;
+  height: 146px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+  margin-top: 15px;
+}
+
+.connect {
+  width: 117px;
+  height: 24px;
+ font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff;
+}
+
+.social_icon {
+  width: 375px;
+  height: 604px;
+  top: 2px;
+  padding: 7px 1px;
+  gap: 12px;
+}
+
+.social_icon > img {
+  width: 20px;
+  height: 16px;
+  margin: 0 5px;
+}
+
+#icon1 {
+  margin-right: 5px;
+  margin-left: -4px;
+}
+
+.work_section {
+  width: 375px;
+  height: 2788px;
+  display: grid;
+  padding: 114px 24px 114px 24px;
+  gap: 88px;
+  background-color: #EBEBFF
+}
+
+.Card_Works {
+  width: 327px;
+  height: 552px;
+  padding: 16px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+  background: #FFFFFF;
+  color:#344563;
+}
+
+.extra {
+  height: 596px;
+}
+
+.snapshoot {
+  width: 295px;
+  height: 220px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+.portfolio_article {
+  width: 295px;
+  height: 288px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio_article .title {
+  width: 295px;
+  height: 80px;
+  gap: 12px;
+}
+
+.portfolio_title_details ul {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 236px;
+  height: 32px;
+  gap: 18px;
+  font-weight: 600;
+  color:#344563;
+}
+
+.portfolio_title_details ul li {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color:#7A869A;
+  font-family: Poppins;
+}
+
+.portfolio_description {
+  width: 295px;
+  height: 76px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.portfolio_tags {
+  width: 230px;
+  height: 24px;
+  gap: 8px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio_tags li {
+  min-width: 57px;
+  height: 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6070FF;
+  background: #EBEBFF;
+  padding: 4px 12px 4px 12px;
+}
+
+.action {
+  width: 295px;
+  height: 72px;
+  padding: 12px 169px 12px 0px;
+}
+
+.action button {
+  width: 126px;
+  height: 48px;
+  top: 12px;
+  padding: 12px ;
+  gap: 10px;
+  border-radius: 8px ;
+  border: 1px solid #6070FF;
+  background-color: white;
+  color: #396DF2;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.action button:hover {
+  color: #6070FF;
+  box-shadow: 0px 8px 16px 0px #4053FC3D;
+  background-color: #f0f2f8;
+}
+
+.action button:active {
+  background: #2230D2;
+  color: white;
+}
+
+.about_myself {
+  height: 1062px;
+  width: 375px;
+  height: 1062px;
+  margin-left: -23px;
+  padding: 114px 0 114px 33px;
+  background-color: #fcfdff;
+  color: #172B4D;
+  gap: 24px;  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.about_myself_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 327px;
+  height: 375px;
+  gap: 12px;
+}
+
+.about_myself_desc h2 {
+  width: 327px;
+  height: 35px;
+  gap: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.about_me {
+  width: 327px;
+  height: 147px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.social_icon {
+  width: 200px;
+  height: 80px;
+  gap: 16px;
+}
+
+.social_icon p {
+  width: 147px;
+  height: 24px;
+  color: #396DF2;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+#resume_btn {
+  width: 170px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.about_myself_skills {
+  height: 464.15px;
+  width: 327px;
+}
+
+.lang {
+  width: 327px;
+  height: 72px;
+  padding: 16px 26px 16px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px
+}
+
+.lang_list {
+  width: 327px;
+  height: 248.15px;
+  padding: 12px 0px 0px 0px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang_sub_list {
+  width: 303px;
+  height: 66.72px;
+  padding: 9px 12px 9.72px 12px;
+  border-radius: 8px;
+  background: #F7F7F9;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  gap: 12px;
+}
+
+.lang_sub_list img {
+  width: 48px;
+  height: 48px;
+  border: 1px;
+}
+
+footer {
+  background: #6070FF;
+  background-image: url(images/footer\ shapes\ mobile.png);
+  width: 375px;
+  height: 673px;
+  border-top-left-radius: 100px;
+  padding-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1043px;
+}
+
+.contact_me {
+  width: 375px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: white;
+}
+
+.about_content {
+  width: 327px;
+  height: 137px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: black;
+}
+
+.input {
+  width: 327px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 13px; 
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.815);
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 10px;
+  border: none;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 13px; 
+}
+
+footer .action button:hover {
+  border: 1px solid white;
+}
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: #fcfcff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main{
+    width: 100%;
+  }
+  .about_section{
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width:768px) {
+header#start {
+  width: 100%;
+  height: 72px;
+  align-items: center;
+  padding: 0 100px;
+}
+
+nav > img {
+  display: none;
+}
+
+#header_ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  color: #344563;
+}
+
+#header_ul {
+  cursor: pointer;
+}
+
+.about_section {
+  width: 100%;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  background:url(images/banner\ desktop\ img.png);
+}
+
+.intro {
+  height: 100px;
+  width: 64%;
+}
+
+.about {
+  width: 74%;
+  height: 100px;
+}
+
+#intro_connect_bt {
+  height: 34px;
+  width: 150px;
+}
+
+.social_icon {
+  height: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+.work_section {
+  grid-template-rows: repeat(3,1fr);
+  width: 100%;
+  justify-items: center;
+  height: 2419px;
+}
+  
+.Card_Works {
+  width: 92%;
+  height: 500px;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.Card_Works img {
+  width: 58%;
+  height: 84%;
+}
+
+.portfolio_article {
+  width: 100%;
+}
+
+.portfolio_description {
+  width: 83%;
+}
+
+.about_myself{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 535px;
+  padding-left: 57px;
+}
+
+.about_myself_desc {
+  width: 50%;
+}
+
+.about_myself_desc p {
+  width: 90%;
+}
+
+.about_myself_skills {
+  width: 45%;
+}
+
+.lang_list {
+  flex-direction: row;
+  height: 190.15px;
+}
+
+.lang {
+  width: 90%;
+}
+  
+.lang_sub_list {
+  flex-direction: column;
+  height: 101px;
+}
+
+footer {
+  margin-top: 590px;
+  width: 100%;
+  background-image : url(contact\ form\ background\ desktop.png);
+  background-size: cover; 
+}
+
+}
+
