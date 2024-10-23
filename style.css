@@ -19,8 +19,8 @@ nav {
 }
 
 nav > span {
-  width: 100px; /* Invalid value, kept as is for reference */
-  height: 40px; /* Invalid value, kept as is for reference */
+  width: 100px; 
+  height: 40px; 
   padding: 10px 12px;
   font-size: 18px;
   font-weight: 700;
@@ -29,8 +29,8 @@ nav > span {
 }
 
 nav > img {
-  width: 40px; /* Invalid value, kept as is for reference */
-  height: 40px; /* Invalid value, kept as is for reference */
+  width: 40px; 
+  height: 40px; 
   padding: 4px 0 0 0;
   border-radius: 8px 0 0 0;
 }
@@ -45,7 +45,7 @@ nav > img {
   min-height: 604px;
   padding: 114px 24px;
   gap: 12px;
-  background-image: url(images/main_background.png); /* Changed to forward slash */
+  background-image: url(images/main_background.png); 
 }
 
 .intro {
@@ -567,7 +567,7 @@ main {
 footer {
   margin-top: 590px;
   width: 100%;
-  background-image : url(contact\ form\ background\ desktop.png);
+  background-image : url(images/contact\ form-\ background-shape-desktop.png);
   background-size: cover; 
 }
 
