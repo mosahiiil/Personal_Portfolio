@@ -1,0 +1,212 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  transition: right 0.3s ease;
+}
+
+.mobile-menu li {
+  margin: 20px 0;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.close-menu {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* Section styles */
+header, .about, .skills, .projects, footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.intro-section {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.connect-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.connect-btn:hover {
+  background-color: #0056b3;
+}
+
+/* About Section */
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.resume-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.skills h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.project-card h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+footer h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Open Menu */
+.mobile-menu.open {
+  right: 0;
+}
